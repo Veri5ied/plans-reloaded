@@ -138,4 +138,19 @@ header a:hover {
     
 }
 
+@media screen and (max-width: 768px) {
+
+    .card-deck {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .card .choose {
+        width: 350px;
+        height: 50px;
+        padding-top: 0.5em;
+        margin-bottom: 15px;
+    }
+
+}
 
