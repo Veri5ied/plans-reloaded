@@ -129,13 +129,20 @@ header a:hover {
     }
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
 
-    .main-body {
-        margin-left: 150px;
-        padding-right: 30px;
+    .card-deck {
+        display: flex;
+        flex-direction: column !important;
     }
-    
+
+    .card .choose {
+        width: 350px;
+        height: 50px;
+        padding-top: 0.5em;
+        margin-bottom: 15px;
+    }
+
 }
 
 
